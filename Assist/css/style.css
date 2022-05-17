@@ -1,0 +1,116 @@
+
+
+:root{
+    --bginfo: #B6DCE7;
+    --bglight: #C8E6EE;
+    --bgBinfo: #30A1CB;
+    --bgtext: #0F7094;
+    --bgtext1: #4999CA;
+}
+
+
+.navSection{
+    background: var(--bginfo);
+    color: var(--bgtext1);
+
+}
+
+
+
+.navSection a:hover{
+    background: var(--bglight) ;
+    color: var(--bgtext);
+}
+
+
+.navLine .active{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15)!important
+}
+
+
+.h1Simple{
+    font-size: 80px;
+}
+
+
+
+
+/* Carousel and it's   background */
+
+.row300{
+    height: 310px;
+    background: var(--bgBinfo);
+    background: linear-gradient(0deg, var(--bgBinfo) 91%, var(--bgtext) 100%);
+}
+
+
+
+
+@media (min-width: 1501px){
+    .space {
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 1500px){
+    .space {
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .space {
+        height: 490px;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .space {
+      height: 380px;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .space {
+      height: 300px;
+    }
+}
+
+
+
+
+
+
+.fivthC .Sec1 {
+    /* box-shadow: -25px -16px 5px -21px #aaaaaa; */
+
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.089) 10%, white,  white ) ;
+}
+
+
+
+/* footer background */
+.rowinfo{
+    background: var(--bgBinfo);
+    background: linear-gradient(0deg, var(--bgBinfo) 91%, var(--bgtext) 100%);
+}
+
+.ViewAll{
+    display: block;
+    text-align: right;
+    margin-right: 3%;
+}
+
+
+
+.bottomnav{
+    background: var(--bginfo);
+}
+
